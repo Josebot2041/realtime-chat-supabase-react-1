@@ -21,7 +21,7 @@ export default function Message({ message, isYou }) {
         borderRadius="5px"
         borderTopLeftRadius={isYou ? "5px" : "0"}
         borderTopRightRadius={isYou ? "0" : "5px"}
-        bg={isYou ? "#dbfff9" : "#edf3f9"}
+        bg={isYou ? "#010202ff" : "#010101ff"}
         mt="5"
         position="relative"
         _after={{
@@ -32,8 +32,8 @@ export default function Message({ message, isYou }) {
           borderStyle: "solid",
           borderWidth: isYou ? "0px 0px 10px 10px" : "0px 10px 10px 0",
           borderColor: isYou
-            ? "transparent transparent transparent #dbfff9"
-            : "transparent #edf3f9 transparent transparent",
+            ? "transparent transparent transparent #0b0c0cff"
+            : "transparent #030304ff transparent transparent",
           top: 0,
           left: isYou ? "auto" : "-10px",
           right: isYou ? "-10px" : "auto",
