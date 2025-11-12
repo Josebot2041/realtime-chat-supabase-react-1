@@ -58,7 +58,7 @@ export default function MessageForm() {
               placeholder="Enter a message"
               onChange={(e) => setMessage(e.target.value)}
               value={message}
-              bg="white"
+              bg="black"
               border="none"
               autoFocus
               maxLength="500"
