@@ -1,13 +1,5 @@
 # Full-stack real-time chat
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/38b6f457-50d2-42ac-b9a8-9ca962febebd/deploy-status)](https://app.netlify.com/sites/random-chat/deploys)
-
-- **Data:** PostgeSQL managed by [Supabase](https://supabase.io/) [@supabase_io](https://twitter.com/supabase_io) (awsome real-time API).
-- **Front-end**: React + Vite
-- **UI library**: [chakra-ui](https://chakra-ui.com/) [@chakra_ui](https://twitter.com/chakra_ui)
-- **Hosting**: [Netlify](https://www.netlify.com/)
-- Country flags from [Flagpedia](https://flagpedia.net)
-
 ## Install
 
 `npm install` to setup dependencies
@@ -40,21 +32,10 @@ CREATE TABLE messages (
   is_authenticated BOOLEAN DEFAULT FALSE,
   timestamp timestamp default now() NOT NULL
 );
-```
-
-Note: If you're using Supabase interface, don't forget to tick `Enable Realtime` setting after you created the table.
-
-## Setup GitHub authentication (optional)
-
-Follow instrunction [here](https://supabase.io/docs/guides/auth/auth-github)
 
 ## Dev
 
 `npm run dev` to run server on port 3000
-
-## Build
-
-`npm run build` to build the react client
 
 # Demo
 
