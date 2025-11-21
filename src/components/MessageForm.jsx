@@ -79,8 +79,7 @@ export default function MessageForm() {
           </Stack>
         </form>
         <Box fontSize="10px" mt="1" color="black">
-          Warning: do not share any sensitive information, it's a public chat
-          room 🙂
+          BIENVENIDO SISTEMA DE CHAT LLAMADO COLABORACHAT😊
         </Box>
       </Container>
     </Box>
