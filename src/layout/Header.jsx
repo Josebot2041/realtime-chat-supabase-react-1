@@ -20,7 +20,7 @@ export default function Header() {
       borderBottom="20px solid #edf2f7"
     >
       <GridItem justifySelf="start" m="2">
-        <Image src="/logo.png" height="30px" ml="2" />
+        <Image src="/logo512.png" height="30px" ml="2" />
       </GridItem>
       {/* <GridItem>
         <ColorModeButton />
