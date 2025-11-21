@@ -21,6 +21,7 @@ export default function Header() {
     >
       <GridItem justifySelf="start" m="2">
         <Image src="/logo512.png" height="30px" ml="2" />
+        <text style={{ color: "white", marginLeft: "10px", fontWeight: "bold"}}>COLABORA CHAT</text>
       </GridItem>
       {/* <GridItem>
         <ColorModeButton />
