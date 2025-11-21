@@ -36,7 +36,3 @@ CREATE TABLE messages (
 ## Dev
 
 `npm run dev` to run server on port 3000
-
-
-
-!['demo'](https://random-chat.netlify.app/demo.png "demo")
